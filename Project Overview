@@ -91,6 +91,70 @@ F Significance = 1.002: If the value of the F Significance test is above 5%, the
 Standard Error = 2.85: This means that the predicted average is 2.85 away from the actual value. If the sample size increases, the average will be closer to the true value.
 Intercept = 0.92: I did not consider the width from the origin or the constant value to be zero. Because the process of getting a visa is a continuous process and it has existed since the years before this project was reviewed. That's why the created graph is placed above the symmetry line of the center.
 P-Value = (0.001, 1.107, 0.0002 and 0.25): If it is less than 5%, the coefficient is significant. When F Significance and P-Value are equal, there is only one independent variable. This model shows that the probability of these results is not zero. But since the P-value in the case of Schengen visa is less than 5%, it can be concluded that this coefficient is significant and the probability of it being a chance is very low or close to zero.
+Regression Analysis, Full Professional Report
+1-Overview of the Model:
+The regression model demonstrates a strong predictive performance with highly significant statistical indicators. The objective was to evaluate how key factors Invitation, Schengen travel history, and Previous Refusal influence the target variable (e.g., approval probability, score, or another measurable outcome)
+2-Model Fit Statistics:
+Multiple R = 0.916
+Indicates a very strong correlation between the independent variables and the dependent variable.
+✓ R Square = 0.839
+The model explains 83.9% of the variance in the dependent variable, which is exceptionally high for real-world data.
+✓ Adjusted R Square = 0.835
+Close to the R² value, suggesting:
+The model is not overfitted.
+The included variables genuinely contribute to explaining the variation.
+✓ Standard Error = 2.85
+On average, the model’s predictions deviate from actual values by roughly 2.85 units, which indicates acceptable precision.
+✓ Observations = 150
+A sample size of 150 provides strong statistical reliability.
+ANOVA Significance of the Overall Model
+✓ F-statistic = 254.05
+✓ Significance F = 1.00 × 10⁻⁵⁷
+These values indicate that the overall regression model is highly significant.
+In other words, the predictors collectively explain the dependent variable far better than random chance.
+Coefficient Analysis and Interpretation
+Variable	Coefficient	P-value	Interpretation
+Invitation	+0.4427	1.10E-18	Strong, significant positive effect
+Schengen	+0.3784	0.000228	Significant positive effect
+Previous Refusal	–0.1833	0.257	Negative but not statistically significant
+Intercept	0.928	0.0014	Significant baseline value
+Interpretation of Each Predictor
+1-Invitation – Strongest Predictor (Positive and Highly Significant)
+Coefficient: +0.44
+P-value: ~0
+This variable has the largest impact among all predictors.
+Presence of an invitation substantially increases the predicted outcome.
+This is the most influential factor in the model.
+2-Schengen Travel History Significant Positive Effect
+Coefficient: +0.38
+P-value: 0.000228
+A positive Schengen travel record is associated with a higher predicted score/outcome.
+This variable is also an important and reliable predictor.
+3-Previous Refusal Negative but Not Statistically Significant
+Coefficient: –0.18
+P-value: 0.257
+Although the coefficient suggests a negative impact, the effect is not statistically different from zero at common significance levels.
+Interpretation:
+Past refusal might have a negative influence, but the evidence is not strong enough to conclude this with confidence.
+Confidence Intervals (95%):
+Invitation: [+0.3566 , +0.5287]
+Schengen: [+0.1807 , +0.5759]
+Previous Refusal: [–0.5018 , +0.1353]
+Because the confidence interval for “Previous Refusal” crosses zero, its non-significance is confirmed.
+Overall Conclusion
+✔ The model is statistically strong and highly reliable.
+✔ Two predictors have a clear and significant positive impact:
+Invitation (most powerful determinant)
+Schengen travel history
+✔ Previous Refusal shows a negative trend but is statistically inconclusive.
+✔ With an R² of 0.839, the model explains the majority of the outcome variability.
+A visual analysis:
+1-Coefficient Bar Chart, shows which variables have the strongest positive or negative impact.
+2-95% Confidence Interval Plot, shows the uncertainty range for each coefficient and whether the interval crosses zero.
+Both charts clearly confirm:
+Invitation → strongest positive effect
+Schengen travel history → significant positive effect
+Previous Refusal → negative but statistically uncertain (CI crosses zero)
 Dashboards:
 Using categorized 3 and 4, I designed two dashboards to use the pivot tool to create charts and illustrations.
 -The results of changes Canadian tourist visa for Iranian applicants between Jan 2022, Jan 2023 and Jan 2024.
